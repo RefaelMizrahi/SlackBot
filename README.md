@@ -28,3 +28,5 @@ LOGZIO_TOKEN =<'YOUR_LOGZIO_TOKEN'>
 How it looks in actions:
 We're going to reply to every message that the customer sends and save it as a file in our local  project under the tickets folder, we saved the thread message and update the ticket, we saved the type of the ticket FR/BUG and update the ticket. 
 
+![image](https://github.com/RefaelMizrahi/SlackBot/assets/74647294/6f0015f4-c160-4968-b823-53b8366e6b63)
+![image](https://github.com/RefaelMizrahi/SlackBot/assets/74647294/6e09c4ae-f035-41fd-9ca3-f6b2f90ff921)
