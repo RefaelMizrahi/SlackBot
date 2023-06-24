@@ -40,5 +40,6 @@ We have opened a ticket regarding your request, and we will update you ASAP!
 4. The customer chooses the topic of the ticket BUG / FIX we reply back and update the ticket.
 5. If the customer responds in the thread, we update the ticket as well 
 
-![image](https://github.com/RefaelMizrahi/SlackBot/assets/74647294/9973381f-6a02-4cbb-9a4c-10dabbdd4a6a)
+![image](https://github.com/RefaelMizrahi/SlackBot/assets/74647294/2cdfbbdc-31ca-4bd1-8f1e-98334f13b3f9)
+
 ![image](https://github.com/RefaelMizrahi/SlackBot/assets/74647294/6e09c4ae-f035-41fd-9ca3-f6b2f90ff921)
