@@ -32,7 +32,7 @@ https://www.youtube.com/watch?v=rnbQIQe2M4Y
 
 
 What does the script do?
-1. Whhcustotomer sends a message we reply back with the following response:
+1. When the customer sends a message we reply back with the following response:
 Hey there @user, I hope you're well. Thanks for reaching out!
 We have opened a ticket regarding your request, and we will update you ASAP!
 2. A ticket with the user id is being opened in the backend,  in our local  project under the tickets folder. 
