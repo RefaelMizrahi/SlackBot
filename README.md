@@ -25,7 +25,12 @@ CHANNEL_ID = <'YOUR_CHANNEL_ID'>
 LOGZIO_TOKEN =<'YOUR_LOGZIO_TOKEN'>
 ```
 
-Finally - I used vercel to deploy my project.
+Finally - I used vercel to deploy my project. You can follow up with this video: 
+https://www.youtube.com/watch?v=rnbQIQe2M4Y
+
+![image](https://github.com/RefaelMizrahi/SlackBot/assets/74647294/0209fe3f-57c0-4e7f-b418-c2da4918cb3f)
+
+
 What does the script do?
 1. Whhcustotomer sends a message we reply back with the following response:
 Hey there @user, I hope you're well. Thanks for reaching out!
