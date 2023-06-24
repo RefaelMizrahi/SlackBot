@@ -1,7 +1,7 @@
 # SlackBot
 
 In this repro, we are creating a Slackbot by using Slack sdk!
-I used Logzio to monitor my logs. 
+I used Logzio to monitor my logs. You can use each ELK provider you'd prefer. 
 
 Let's start!
 You need to follow up with this guide to create your app in Slack:
@@ -25,8 +25,15 @@ CHANNEL_ID = <'YOUR_CHANNEL_ID'>
 LOGZIO_TOKEN =<'YOUR_LOGZIO_TOKEN'>
 ```
 
-How it looks in actions:
-We're going to reply to every message that the customer sends and save it as a file in our local  project under the tickets folder, we saved the thread message and update the ticket, we saved the type of the ticket FR/BUG and update the ticket. 
+Finally - I used vercel to deploy my project.
+What does the script do?
+1. Whhcustotomer sends a message we reply back with the following response:
+Hey there @user, I hope you're well. Thanks for reaching out!
+We have opened a ticket regarding your request, and we will update you ASAP!
+2. A ticket with the user id is being opened in the backend,  in our local  project under the tickets folder. 
+3. We provide the customer with our documentation, with the following response:
+4. The customer chooses the topic of the ticket BUG / FIX we reply back and update the ticket.
+5. If the customer responds in the thread, we update the ticket as well 
 
-![image](https://github.com/RefaelMizrahi/SlackBot/assets/74647294/6f0015f4-c160-4968-b823-53b8366e6b63)
+![image](https://github.com/RefaelMizrahi/SlackBot/assets/74647294/9973381f-6a02-4cbb-9a4c-10dabbdd4a6a)
 ![image](https://github.com/RefaelMizrahi/SlackBot/assets/74647294/6e09c4ae-f035-41fd-9ca3-f6b2f90ff921)
