@@ -16,8 +16,9 @@ https://logz.io/
 
 You need to send logs from Python: 
 https://github.com/logzio/logzio-python-handler
+
+Create an .env file with the following values:
 ```
-Create a .env file and save all the tokens:
 SLACK_BOT_TOKEN= <'YOUR_SLACK_BOT_TOKEN'>
 SLACK_APP_TOKEN = <'YOUR_SLACK_APP_TOKEN'>
 SLACK_SIGNING_SECRET=<'YOUR_SLACK_SIGNING_SECRET'>
