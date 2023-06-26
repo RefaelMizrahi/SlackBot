@@ -182,7 +182,7 @@ def create_ticket_buttons(channel_id):
 @app.action("bug_ticket")
 def handle_bug_ticket(ack, body):
     ack()
-    # Send a thank you message for bug ticket in the main thread
+    # Send a thank you message for bug ticket
     message = f"Thank you for reporting the bug! We'll look into it. 🐛"
     client.chat_postMessage(channel=channel_id, text=message)
     user = body['user']['id']
@@ -204,8 +204,7 @@ def handle_bug_ticket(ack, body):
 def handle_fr_ticket(ack, body):
     ack()
     channel_id = body['channel']['id']
-
-    # Send a thank you message for feature request ticket in the main thread
+    # Send a thank you message for FR ticket
     message = f"Thank you for your feature request! We'll consider it for future updates. ✨"
     client.chat_postMessage(channel=channel_id, text=message)
     user = body['user']['id']
