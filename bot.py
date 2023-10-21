@@ -66,9 +66,9 @@ client = WebClient(token=slack_bot_token)
 
 def send_documentation_menu(channel):
     options = [
-        {"text": "Plans", "value": "plans","url":"https://docs.stigg.io/docs/plans"},
-        {"text": "modeling your pricing", "value": "modeling-your-pricing", "url":"https://docs.stigg.io/docs/modeling-your-pricing"},
-        {"text": "features", "value": "FR","url": "https://docs.stigg.io/docs/features"}
+        {"text": "Plans", "value": "plans","url":"YOUR URL"},
+        {"text": "modeling your pricing", "value": "modeling-your-pricing", "url":"YOUR URL"},
+        {"text": "features", "value": "FR","url": "YOUR URL"}
     ]
     actions = [
         {
